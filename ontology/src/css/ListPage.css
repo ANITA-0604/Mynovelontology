@@ -1,0 +1,9 @@
+.list{
+    position :absolute;
+    left : 0px;
+    top : 20px;
+}
+.maps{
+    position:absolute;
+    left : 300px;
+}

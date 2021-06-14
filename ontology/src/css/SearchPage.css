@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap');
+
+.city{
+    
+    height: 80px;
+    width: 100px;
+    top: 50px;
+    left:-400px;
+}
+.district{
+    
+    height: 80px;
+    width: 100px;
+    top: 25px;
+    left:-180px;
+
+}
+.category{
+    
+    height: 80px;
+    width: 100px;
+    top: -150px;
+    left:20px;
+}
+.gender{
+    
+    height: 80px;
+    width: 100px;
+    top: -150px;
+    left:80px;
+}
+.age{
+    
+    height: 80px;
+    width: 100px;
+    top: -150px;
+    left: 150px;
+}
+.rentType{
+    
+    height: 30px;
+    width: 50px;
+    top: -150px;
+    left: 105px;
+
+}
+.rentTop{
+    
+    height: 30px;
+    width: 50px;
+    top: 50px;
+    left: 100px;
+
+}
+.Dropdown {
+    font-family: 'Noto Serif TC', serif;
+    position: absolute;
+    
+    display: inline-block;
+    padding: 5px;
+};
+
