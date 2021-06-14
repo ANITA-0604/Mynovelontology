@@ -1,0 +1,1728 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://mynovelcollection.com/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+:楊過 rdfs:label :Character.
+:楊過 a :Novel_character ;
+		:name "楊過" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :神雕俠侶 ;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:teacher :趙志敬;
+		:family :楊康;
+		:family :穆念慈;
+		:family :歐陽鋒;
+		:friend :程英;
+		:friend :陸無雙;
+		:friend :洪凌波;
+		:friend :曲傻姑;
+		:friend :郭靖;
+		:friend :黃蓉;
+		:friend :公孫綠萼;
+		:friend :黃藥師;
+		:friend :郭襄;
+		:friend :陸冠英;
+		:enemy :金輪國師;
+		:enemy :霍都;
+		:enemy :尼摩星;
+		:enemy :瀟湘子;
+		:enemy :尹克西;
+		:enemy :公孫止;
+		:enemy :李莫愁;
+		:enemy :趙志敬.
+:小龍女 rdfs:label :Character.
+:小龍女 a :Novel_character ;
+		:name "小龍女" ;
+		:team :古墓派;
+		:team :西狂;
+		:appears_in :神雕俠侶 ;
+		:lover  :楊過;
+		:teacher :林朝英丫鬟;
+		:friend :公孫止;
+		:friend :孫婆婆;
+		:friend :周伯通;
+		:friend :黃蓉;
+		:friend :郭靖;
+		:enemy :金輪國師;
+		:enemy :霍都;
+		:enemy :尼摩星;
+		:enemy :瀟湘子;
+		:enemy :尹克西;
+		:enemy :公孫止;
+		:enemy :李莫愁;
+		:enemy :尹志平.
+:郭靖 rdfs:label :Character.
+:郭靖 a :Novel_character ;
+		:name "郭靖" ;
+		:team :宋;
+		:team :北俠;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:lover  :黃蓉;
+		:teacher :柯鎮惡;
+		:teacher :朱聰;
+		:teacher :韓寶駒;
+		:teacher :南希仁;
+		:teacher :張阿生;
+		:teacher :全金發;
+		:teacher :韓小瑩;
+		:teacher :洪七公;
+		:family :郭嘯天;
+		:family :李萍;
+		:family :郭芙;
+		:family :郭襄;
+		:family :郭破虜;
+		:friend :拖雷;
+		:friend :華箏;
+		:friend :陸冠英;
+		:friend :馮默風;
+		:friend :周伯通;
+		:friend :穆念慈;
+		:friend :楊康;
+		:friend :小龍女;
+		:friend :楊過;
+		:enemy :段天德;
+		:enemy :裘千仞;
+		:enemy :沙通天;
+		:enemy :侯通海;
+		:enemy :靈智上人;
+		:enemy :彭連虎;
+		:enemy :裘千丈.
+
+:黃蓉 rdfs:label :Character.
+:黃蓉 a :Novel_character ;
+		:name "黃蓉" ;
+		:team :丐幫;
+		:team :桃花島;
+		:team :北俠;
+		:appears_in :神雕俠侶 ;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :郭靖;
+		:teacher :黃藥師;
+		:family :黃藥師;
+		:family :馮衡;
+		:family :郭芙;
+		:family :郭襄;
+		:family :郭破虜;
+		:enemy :裘千仞;
+		:enemy :歐陽克;
+		:enemy :金輪國師;
+		:enemy :霍都;
+		:enemy :尼摩星;
+		:enemy :瀟湘子;
+		:enemy :尹克西;
+		:enemy :楊康;
+		:enemy :沙通天;
+		:enemy :侯通海;
+		:enemy :靈智上人;
+		:enemy :彭連虎;
+		:enemy :裘千丈;
+		:friend :陸冠英;
+		:friend :馮默風;
+		:friend :周伯通;
+		:friend :朱子柳;
+		:friend :武三通;
+		:friend :點蒼漁隱;
+		:friend :樵夫.
+		
+:楊康 rdfs:label :Character.
+:楊康 a :Novel_character ;
+		:name "楊康" ;
+		:team :大金;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :穆念慈;
+		:teacher :丘處機;
+		:family :楊鐵心;
+		:family :包惜弱;
+		:family :完顏洪烈;
+		:enemy :黃蓉;
+		:friend :郭靖;
+		:friend :黃蓉.
+
+:穆念慈 rdfs:label :Character.
+:穆念慈 a :Novel_character ;
+		:name "穆念慈" ;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :楊康;
+		:teacher :洪七公;
+		:family :楊鐵心;
+		:family :楊過;
+		:friend :郭靖;
+		:friend :黃蓉;
+		:enemy :歐陽克.
+
+:楊鐵心 rdfs:label :Character.
+:楊鐵心 a :Novel_character ;
+		:name "楊鐵心" ;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :楊康;
+		:family :包惜弱;
+		:friend :郭嘯天;
+		:friend :李萍;
+		:enemy :完顏洪烈;
+		:enemy :段天德.
+
+:包惜弱 rdfs:label :Character.
+:包惜弱 a :Novel_character ;
+		:name "包惜弱" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :楊鐵心;
+		:family :楊康.
+:郭芙 rdfs:label :Character.
+:郭芙 a :Novel_character ;
+		:name "郭芙" ;
+		:team :北俠;
+		:appears_in :神雕俠侶 ;
+		:lover  :耶律齊;
+		:teacher :郭靖;
+		:family :郭靖;
+		:family :黃蓉;
+		:family :郭襄;
+		:family :郭破虜;
+		:friend :武修文;
+		:friend :武敦儒;
+		:enemy :楊過.
+:郭襄 rdfs:label :Character.
+:郭襄 a :Novel_character ;
+		:name "郭襄" ;
+		:team :北俠;
+		:team :峨嵋派;
+		:appears_in :神雕俠侶 ;
+		:lover :楊過;
+		:teacher :郭靖;
+		:teacher :金輪國師;
+		:family :郭靖;
+		:family :黃蓉;
+		:family :郭芙;
+		:family :郭破虜.
+:郭破虜 rdfs:label :Character.
+:郭破虜 a :Novel_character ;
+		:name "郭破虜" ;
+		:team :北俠;
+		:appears_in :神雕俠侶 ;
+		:teacher :郭靖;
+		:family :郭靖;
+		:family :黃蓉;
+		:family :郭襄;
+		:family :郭芙.
+:武敦儒 rdfs:label :Character.
+:武敦儒 a :Novel_character ;
+		:name "武敦儒" ;
+		:team :北俠;
+		:appears_in :神雕俠侶 ;
+		:lover  :耶律燕;
+		:teacher :郭靖;
+		:family :武三通;
+		:family :武修文;
+		:family :武三娘;
+		:friend :郭芙.
+:武修文 rdfs:label :Character.
+:武修文 a :Novel_character ;
+		:name "武修文" ;
+		:team :北俠;
+		:appears_in :神雕俠侶 ;
+		:lover  :完顏萍;
+		:teacher :郭靖;
+		:family :武三通;
+		:family :武敦儒;
+		:family :武三娘;
+		:friend :郭芙.
+:程英 rdfs:label :Character.
+:程英 a :Novel_character ;
+		:name "程英" ;
+		:team :東邪;
+		:appears_in :神雕俠侶 ;
+		:lover  :楊過;
+		:teacher :黃藥師;
+		:family :陸無雙.
+:馮默風 rdfs:label :Character.
+:馮默風 a :Novel_character ;
+		:name "馮默風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :黃藥師;
+		:friend :郭靖;
+		:friend :黃蓉.
+:曲傻姑 rdfs:label :Character.
+:曲傻姑 a :Novel_character ;
+		:name "曲傻姑" ;
+		:team :桃花島;
+		:appears_in :神雕俠侶 ;
+		:teacher :黃藥師;
+		:family :曲靈風;
+		:friend :楊過.
+:陸冠英 rdfs:label :Character.
+:陸冠英 a :Novel_character ;
+		:name "陸冠英" ;
+		:team :大勝關陸家莊;
+		:appears_in :神雕俠侶 ;
+		:teacher :枯木大師;
+		:lover  :程瑤迦;
+		:family :陸乘風.
+:程瑤迦 rdfs:label :Character.
+:程瑤迦 a :Novel_character ;
+		:name "程瑤迦" ;
+		:team :大勝關陸家莊;
+		:team :全真教;
+		:appears_in :神雕俠侶 ;
+		:lover  :陸冠英;
+		:teacher :孫不二;
+		:friend :尹志平;
+		:enemy :歐陽克.
+:黃藥師 rdfs:label :Character.
+:黃藥師 a :Novel_character ;
+		:name "黃藥師" ;
+		:team :東邪;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:lover  :馮衡;
+		:family :黃蓉;
+		:friend :楊過.
+:歐陽鋒 rdfs:label :Character.
+:歐陽鋒 a :Novel_character ;
+		:name "歐陽鋒" ;
+		:team :西毒;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:family :楊過;
+		:family :歐陽克;
+		:enemy :洪七公;
+		:enemy :黃蓉.
+:一燈大師 rdfs:label :Character.
+:一燈大師 a :Novel_character ;
+		:name "一燈大師" ;
+		:team :南僧;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:lover  :瑛姑;
+		:enemy :裘千仞;
+		:enemy :周伯通.
+:洪七公 rdfs:label :Character.	   
+:洪七公 a :Novel_character ;
+		:name "洪七公" ;
+		:team :丐幫;
+		:team :北丐;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:enemy :歐陽鋒.
+:王重陽 rdfs:label :Character.
+:王重陽 a :Novel_character ;
+		:name "王重陽" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :林朝英.
+:孫婆婆 rdfs:label :Character.
+:孫婆婆 a :Novel_character ;
+		:name "孫婆婆" ;
+		:team :古墓派;
+		:appears_in :神雕俠侶.
+:李莫愁 rdfs:label :Character.
+:李莫愁 a :Novel_character ;
+		:name "李莫愁" ;
+		:team :古墓派;
+		:appears_in :神雕俠侶 ;
+		:lover  :陸展元;
+		:teacher :林朝英丫鬟.
+:洪凌波 rdfs:label :Character.
+:洪凌波 a :Novel_character ;
+		:name "洪凌波" ;
+		:team :古墓派;
+		:appears_in :神雕俠侶 ;
+		:teacher :李莫愁.
+:陸無雙 rdfs:label :Character.
+:陸無雙 a :Novel_character ;
+		:name "陸無雙" ;
+		:team :古墓派;;
+		:appears_in :神雕俠侶 ;
+		:lover  :楊過;
+		:teacher :李莫愁;
+		:family :陸展元;
+		:family :程英.
+:林朝英 rdfs:label :Character.
+:林朝英 a :Novel_character ;
+		:name "林朝英" ;
+		:team :古墓派;;
+		:appears_in :神雕俠侶 ;
+		:lover  :王重陽.
+:林朝英丫鬟 rdfs:label :Character.
+:林朝英丫鬟 a :Novel_character ;
+		:name "林朝英丫鬟" ;
+		:team :古墓派;
+		:appears_in :神雕俠侶 ;
+		:teacher :林朝英.
+:周伯通 rdfs:label :Character.
+:周伯通 a :Novel_character ;
+		:name "周伯通" ;
+		:team :中頑童;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:lover  :瑛姑;
+		:friend :黃蓉;
+		:friend :郭靖;
+		:friend :楊過;
+		:friend :小龍女.
+
+:馬鈺 rdfs:label :Character.
+:馬鈺 a :Novel_character ;
+		:name "馬鈺" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:劉處玄 rdfs:label :Character.
+:劉處玄 a :Novel_character ;
+		:name "劉處玄" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:談處端 rdfs:label :Character.
+:談處端 a :Novel_character ;
+		:name "談處端" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:丘處機 rdfs:label :Character.
+:丘處機 a :Novel_character ;
+		:name "丘處機" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:王處一 rdfs:label :Character.
+:王處一 a :Novel_character ;
+		:name "王處一" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:郝大通 rdfs:label :Character.
+:郝大通 a :Novel_character ;
+		:name "郝大通" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:孫不二 rdfs:label :Character.
+:孫不二 a :Novel_character ;
+		:name "孫不二" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :王重陽.
+:趙志敬 rdfs:label :Character.
+:趙志敬 a :Novel_character ;
+		:name "趙志敬" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :丘處機;
+		:enemy :楊過 .
+:尹志平 rdfs:label :Character.
+:尹志平 a :Novel_character ;
+		:name "尹志平" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :丘處機.
+:陸清篤 rdfs:label :Character.
+:陸清篤 a :Novel_character ;
+		:name "陸清篤" ;
+		:team :全真教;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:teacher :趙志敬.
+:魯有腳 rdfs:label :Character.
+:魯有腳 a :Novel_character ;
+		:name "魯有腳" ;
+		:team :丐幫;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :馬光佐.
+:彭長老 rdfs:label :Character.
+:彭長老 a :Novel_character ;
+		:name "彭長老" ;
+		:team :丐幫;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃蓉 .
+:耶律處才 rdfs:label :Character.
+:耶律處才 a :Novel_character ;
+		:name "耶律處才" ;
+		:team :大遼;
+		:appears_in :神雕俠侶 ;
+		:family :耶律晉;
+		:family :耶律齊;
+		:family :耶律燕.
+:耶律晉 rdfs:label :Character.
+:耶律晉 a :Novel_character ;
+		:name "耶律晉" ;
+		:team :大遼;
+		:appears_in :神雕俠侶 ;
+		:family :耶律齊;
+		:family :耶律處才;
+		:family :耶律燕.
+:耶律齊 rdfs:label :Character.
+:耶律齊 a :Novel_character ;
+		:name "耶律齊" ;
+		:team :丐幫;
+		:team :大遼;
+		:appears_in :神雕俠侶 ;
+		:lover  :郭芙;
+		:teacher :黃蓉;
+		:family :耶律晉;
+		:family :耶律處才;
+		:family :耶律燕.
+:耶律燕 rdfs:label :Character.
+:耶律燕 a :Novel_character ;
+		:name "耶律燕" ;
+		:team :大遼;
+		:appears_in :神雕俠侶 ;
+		:lover  :武修文;
+		:family :耶律晉;
+		:family :耶律處才;
+		:family :耶律齊.
+:金輪國師 rdfs:label :Character.
+:金輪國師 a :Novel_character ;
+		:name "金輪國師" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶;
+		:enemy :小龍女;
+		:enemy :楊過;
+		:enemy :郭靖;
+		:enemy :黃蓉.
+:忽必烈 rdfs:label :Character.
+:忽必烈 a :Novel_character ;
+		:name "忽必烈" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶 ;
+		:family :霍都;
+		:family :穆念慈.
+:霍都 rdfs:label :Character.
+:霍都 a :Novel_character ;
+		:name "霍都" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶 ;
+		:teacher :金輪國師;
+		:family :忽必烈.
+:瀟湘子 rdfs:label :Character.
+:瀟湘子 a :Novel_character ;
+		:name "瀟湘子" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶 .
+:尼摩星 rdfs:label :Character.
+:尼摩星 a :Novel_character ;
+		:name "尼摩星" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶 .
+:尹克西 rdfs:label :Character.
+:尹克西 a :Novel_character ;
+		:name "尹克西" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶 .
+:馬光佐 rdfs:label :Character.
+:馬光佐 a :Novel_character ;
+		:name "馬光佐" ;
+		:team :蒙古;
+		:appears_in :神雕俠侶 .
+:公孫止 rdfs:label :Character.
+:公孫止 a :Novel_character ;
+		:name "公孫止" ;
+		:team :絕情谷;
+		:appears_in :神雕俠侶;
+		:lover  :小龍女;
+		:lover  :裘千尺;
+		:family :公孫綠萼;
+		:enemy :裘千尺.
+:裘千尺 rdfs:label :Character.
+:裘千尺 a :Novel_character ;
+		:name "裘千尺" ;
+		:team :絕情谷;
+		:appears_in :神雕俠侶;
+		:lover  :公孫止;
+		:family :公孫綠萼;
+		:family :裘千仞;
+		:family :裘千丈;
+		:enemy :公孫止.
+:公孫綠萼 rdfs:label :Character.
+:公孫綠萼 a :Novel_character ;
+		:name "公孫綠萼" ;
+		:team :絕情谷;
+		:appears_in :神雕俠侶;
+		:lover  :楊過;
+		:family :公孫止;
+		:family :裘千尺.
+:瑛姑 rdfs:label :Character.
+:瑛姑 a :Novel_character ;
+		:name "瑛姑" ;
+		:team :大理;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:lover  :周伯通;
+		:enemy :裘千仞.
+:裘千仞 rdfs:label :Character.
+:裘千仞 a :Novel_character ;
+		:name "裘千仞" ;
+		:team :鐵掌幫;
+		:appears_in :射鵰英雄傳 ;
+		:teacher :上官劍南;
+		:family :裘千尺;
+		:family :裘千丈;
+		:enemy :黃蓉.
+:姚清泉 rdfs:label :Character.
+:姚清泉 a :Novel_character ;
+		:name "姚清泉" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記 .
+:朱子柳 rdfs:label :Character.
+:朱子柳 a :Novel_character ;
+		:name "朱子柳" ;
+		:team :大理;
+		:team :南僧;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:teacher :一燈大師.
+:武三通 rdfs:label :Character.
+:武三通 a :Novel_character ;
+		:name "武三通" ;
+		:team :大理;
+		:team :南僧;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:teacher :一燈大師;
+		:lover :武三娘;
+		:family :武修文;
+		:family :武敦儒.
+:武三娘 rdfs:label :Character.
+:武三娘 a :Novel_character ;
+		:name "武三娘" ;
+		:appears_in :神雕俠侶;
+		:lover  :武三通;
+		:family :武修文;
+		:family :武敦儒.
+:完顏洪烈 rdfs:label :Character.
+:完顏洪烈 a :Novel_character ;
+		:name "完顏洪烈" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳;
+		:lover  :包惜弱;
+		:family :楊康;
+		:enemy :楊鐵心.
+:完顏萍 rdfs:label :Character.
+:完顏萍 a :Novel_character ;
+		:name "完顏萍" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :神雕俠侶;
+		:lover  :武修文;
+		:family :完顏洪烈.
+:天竺神僧 rdfs:label :Character.
+:天竺神僧 a :Novel_character ;
+		:name "天竺神僧" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳.
+:靈智上人 rdfs:label :Character.
+:靈智上人 a :Novel_character ;
+		:name "靈智上人" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳.
+:彭連虎 rdfs:label :Character.
+:彭連虎 a :Novel_character ;
+		:name "彭連虎" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳.
+:侯通海 rdfs:label :Character.
+:侯通海 a :Novel_character ;
+		:name "侯通海" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳.
+:沙通天 rdfs:label :Character.
+:沙通天 a :Novel_character ;
+		:name "沙通天" ;
+		:team :大金;
+		:appears_in :射鵰英雄傳.
+:歐陽克 rdfs:label :Character.
+:歐陽克 a :Novel_character ;
+		:name "歐陽克" ;
+		:team :白駝山莊;
+		:team :西毒;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :黃蓉;
+		:teacher :歐陽鋒;
+		:family :歐陽鋒.
+:裘千丈 rdfs:label :Character.
+:裘千丈 a :Novel_character ;
+		:name "裘千丈" ;
+		:team :鐵掌幫;
+		:appears_in :射鵰英雄傳 ;
+		:family :裘千仞;
+		:family :裘千尺.
+:馮衡 rdfs:label :Character.
+:馮衡 a :Novel_character ;
+		:name "馮衡" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :黃藥師;
+		:family :黃蓉.
+:曲靈風 rdfs:label :Character.
+:曲靈風 a :Novel_character ;
+		:name "曲靈風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:teacher :黃藥師;
+		:family :曲傻姑;
+		:family :穆念慈.
+:陳玄風 rdfs:label :Character.
+:陳玄風 a :Novel_character ;
+		:name "陳玄風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:teacher :黃藥師;
+		:lover  :梅超風.
+:梅超風 rdfs:label :Character.
+:梅超風 a :Novel_character ;
+		:name "梅超風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:teacher :黃藥師;
+		:lover  :陳玄風;
+		:enemy :郭靖.
+:陸乘風 rdfs:label :Character.
+:陸乘風 a :Novel_character ;
+		:name "陸乘風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:teacher :黃藥師;
+		:family :陸冠英.
+:武罡風 rdfs:label :Character.
+:武罡風 a :Novel_character ;
+		:name "武罡風" ;
+		:team :桃花島;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:teacher :黃藥師.
+:點蒼漁隱 rdfs:label :Character.
+:點蒼漁隱 a :Novel_character ;
+		:name "點蒼漁隱" ;
+		:team :大理;
+		:team :南僧;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶.
+:樵夫 rdfs:label :Character.
+:樵夫 a :Novel_character ;
+		:name "樵夫" ;
+		:team :大理;
+		:team :南僧;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶.
+:柯鎮惡 rdfs:label :Character.
+:柯鎮惡 a :Novel_character ;
+		:name "柯鎮惡" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:朱聰 rdfs:label :Character.
+:朱聰 a :Novel_character ;
+		:name "朱聰" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:韓寶駒 rdfs:label :Character.
+:韓寶駒 a :Novel_character ;
+		:name "韓寶駒" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:南希仁 rdfs:label :Character.
+:南希仁 a :Novel_character ;
+		:name "南希仁" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:張阿生 rdfs:label :Character.
+:張阿生 a :Novel_character ;
+		:name "張阿生" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:全金發 rdfs:label :Character.
+:全金發 a :Novel_character ;
+		:name "全金發" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:韓小瑩 rdfs:label :Character.
+:韓小瑩 a :Novel_character ;
+		:name "韓小瑩" ;
+		:team :江南七怪;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶;
+		:enemy :黃藥師.
+:郭嘯天 rdfs:label :Character.
+:郭嘯天 a :Novel_character ;
+		:name "郭嘯天" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :射鵰英雄傳 ;
+		:lover  :李萍;
+		:family :郭靖;
+		:family :包惜弱;
+		:family :楊鐵心.
+:鐵木真 rdfs:label :Character.
+:鐵木真 a :Novel_character ;
+		:name "鐵木真" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 ;
+		:family :拖雷;
+		:family :華箏.
+:拖雷 rdfs:label :Character.
+:拖雷 a :Novel_character ;
+		:name "拖雷" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 ;
+		:family :鐵木真;
+		:family :華箏;
+		:friend :郭靖.
+:華箏 rdfs:label :Character.
+:華箏 a :Novel_character ;
+		:name "華箏" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 ;
+		:family :拖雷;
+		:family :鐵木真;
+		:friend :郭靖.
+:木華黎 rdfs:label :Character.
+:木華黎 a :Novel_character ;
+		:name "木華黎" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:博爾朮 rdfs:label :Character.
+:博爾朮 a :Novel_character ;
+		:name "博爾朮" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:博爾忽 rdfs:label :Character.
+:博爾忽 a :Novel_character ;
+		:name "博爾忽" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:赤老溫 rdfs:label :Character.
+:赤老溫 a :Novel_character ;
+		:name "赤老溫" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:窩闊台 rdfs:label :Character.
+:窩闊台 a :Novel_character ;
+		:name "窩闊台" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:察合台 rdfs:label :Character.
+:察合台 a :Novel_character ;
+		:name "察合台" ;
+		:team :蒙古;
+		:appears_in :射鵰英雄傳 .
+:梁子翁 rdfs:label :Character.
+:梁子翁 a :Novel_character ;
+		:name "梁子翁" ;
+		:team :大遼;
+		:appears_in :射鵰英雄傳 .
+:湯祖德 rdfs:label :Character.
+:湯祖德 a :Novel_character ;
+		:name "湯祖德" ;
+		:team :大遼;
+		:appears_in :射鵰英雄傳 .
+:段天德 rdfs:label :Character.
+:段天德 a :Novel_character ;
+		:name "段天德" ;
+		:team :宋;
+		:team :大金;
+		:appears_in :射鵰英雄傳 ;
+		:appears_in :神雕俠侶.
+:枯木大師mu rdfs:label :Character.
+:枯木大師 a :Novel_character ;
+		:name "枯木大師" ;
+		:team :少林;
+		:appears_in :射鵰英雄傳 .
+:陸展元 rdfs:label :Character.
+:陸展元 a :Novel_character ;
+		:name "陸展元" ;
+		:appears_in :神雕俠侶 ;
+		:family :陸無雙.
+:黃衣女子 rdfs:label :Character.
+:黃衣女子 a :Novel_character ;
+		:name "黃衣女子" ;
+		:team :古墓派;
+		:appears_in :倚天屠龍記;
+		:family :楊過;
+		:family :小龍女;
+		:friend :史紅石.
+:張無忌 rdfs:label :Character.
+:張無忌 a :Novel_character ;
+		:name "張無忌" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover  :趙敏;
+		:lover  :周芷若;
+		:teacher :胡青牛;
+		:family :張翠山;
+		:family :殷天正;
+		:family :殷野王;
+		:family :殷素素;
+		:family :謝遜;
+		:friend :殷離;
+		:friend :小昭;
+		:friend :楊不悔;
+		:friend :朱元璋;
+		:friend :常遇春;
+		:friend :徐達;
+		:friend :明月;
+		:friend :清風;
+		:enemy :武烈;
+		:enemy :陳有諒;
+		:enemy :朱九真;
+		:enemy :周芷若;
+		:enemy :成昆.
+
+:趙敏 rdfs:label :Character.
+:趙敏 a :Novel_character ;
+		:name "趙敏" ;
+		:team :蒙古;
+		:appears_in :倚天屠龍記;
+		:lover  :張無忌;
+		:teacher :範遙;
+		:family :察罕特穆兒;
+		:family :王保保;
+		:friend :阿二;
+		:friend :阿三;
+		:friend :鶴筆翁;
+		:friend :鹿杖客;
+		:enemy :周芷若;
+		:enemy :陳有諒;
+		:enemy :滅絕師太.
+		
+:周芷若 rdfs:label :Character.
+:周芷若 a :Novel_character ;
+		:name "周芷若" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:lover  :張無忌;
+		:teacher :滅絕師太;
+		:friend :貝錦儀;
+		:enemy :周芷若.
+:殷離 rdfs:label :Character.
+:殷離 a :Novel_character ;
+		:name "殷離" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :倚天屠龍記;
+		:lover  :張無忌;
+		:teacher :黛綺絲;
+		:family :殷野王.
+:小昭 rdfs:label :Character.
+:小昭 a :Novel_character ;
+		:name "小昭" ;
+		:team :明教;
+		:team :波斯明教;
+		:appears_in :倚天屠龍記;
+		:lover  :張無忌;
+		:family :黛綺絲;
+		:family :韓千葉.
+:陽頂天 rdfs:label :Character.
+:陽頂天 a :Novel_character ;
+		:name "陽頂天" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover  :陽夫人.
+:陽夫人 rdfs:label :Character.
+:陽夫人 a :Novel_character ;
+		:name "陽夫人" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover  :陽頂天;
+		:lover  :成昆.
+:楊逍 rdfs:label :Character.
+:楊逍 a :Novel_character ;
+		:name "楊逍" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover  :紀曉芙;
+		:family :楊不悔.
+:範遙 rdfs:label :Character.
+:範遙 a :Novel_character ;
+		:name "範遙" ;
+		:team :明教;
+		:team :蒙古;
+		:appears_in :倚天屠龍記;
+		:lover  :黛綺絲.
+:黛綺絲 rdfs:label :Character.
+:黛綺絲 a :Novel_character ;
+		:name "黛綺絲" ;
+		:team :明教;
+		:team :波斯明教;
+		:appears_in :倚天屠龍記;
+		:lover  :韓千葉;
+		:family :小昭.
+:殷天正 rdfs:label :Character.
+:殷天正 a :Novel_character ;
+		:name "殷天正" ;
+		:team :明教;
+		:team :天鷹教;
+		:appears_in :倚天屠龍記;
+		:family :殷野王;
+		:family :殷素素.
+:謝遜 rdfs:label :Character.
+:謝遜 a :Novel_character ;
+		:name "謝遜" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:teacher :成昆;
+		:family :張無忌.
+:韋一笑 rdfs:label :Character.
+:韋一笑 a :Novel_character ;
+		:name "韋一笑" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:冷謙 rdfs:label :Character.
+:冷謙 a :Novel_character ;
+		:name "冷謙" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:說不得 rdfs:label :Character.
+:說不得 a :Novel_character ;
+		:name "說不得" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:張中 rdfs:label :Character.
+:張中 a :Novel_character ;
+		:name "張中" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:彭瑩玉 rdfs:label :Character.
+:彭瑩玉 a :Novel_character ;
+		:name "彭瑩玉" ;
+		:team :明教;
+		:appears_in :倚天屠龍記..
+:周顛 rdfs:label :Character.
+:周顛 a :Novel_character ;
+		:name "周顛" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:莊錚 rdfs:label :Character.
+:莊錚 a :Novel_character ;
+		:name "莊錚" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:吳勁草 rdfs:label :Character.
+:吳勁草 a :Novel_character ;
+		:name "吳勁草" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:顏垣 rdfs:label :Character.
+:顏垣 a :Novel_character ;
+		:name "顏垣" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:唐洋 rdfs:label :Character.
+:唐洋 a :Novel_character ;
+		:name "唐洋" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:聞蒼松 rdfs:label :Character.
+:聞蒼松 a :Novel_character ;
+		:name "聞蒼松" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:辛然 rdfs:label :Character.
+:辛然 a :Novel_character ;
+		:name "辛然" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:殷野王 rdfs:label :Character.
+:殷野王 a :Novel_character ;
+		:name "殷野王" ;
+		:team :天鷹教;
+		:appears_in :倚天屠龍記;
+		:family :殷素素;
+		:family :殷離;
+		:family :殷天正.
+:殷素素 rdfs:label :Character.
+:殷素素 a :Novel_character ;
+		:name "殷素素" ;
+		:team :天鷹教;
+		:appears_in :倚天屠龍記;
+		:lover  :張翠山;
+		:family :張無忌;
+		:family :殷野王;
+		:family :殷天正.
+:李天垣 rdfs:label :Character.
+:李天垣 a :Novel_character ;
+		:name "李天垣" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:常金鵬 rdfs:label :Character.
+:常金鵬 a :Novel_character ;
+		:name "常金鵬" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:白龜壽 rdfs:label :Character.
+:白龜壽 a :Novel_character ;
+		:name "白龜壽" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:流雲使 rdfs:label :Character.
+:流雲使 a :Novel_character ;
+		:name "流雲使" ;
+		:team :波斯明教;
+		:appears_in :倚天屠龍記.
+:妙風使 rdfs:label :Character.
+:妙風使 a :Novel_character ;
+		:name "妙風使" ;
+		:team :波斯明教;
+		:appears_in :倚天屠龍記.
+:輝月使 rdfs:label :Character.
+:輝月使 a :Novel_character ;
+		:name "輝月使" ;
+		:team :波斯明教;
+		:appears_in :倚天屠龍記.
+:常遇春 rdfs:label :Character.
+:常遇春 a :Novel_character ;
+		:name "常遇春" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:朱元璋 rdfs:label :Character.
+:朱元璋 a :Novel_character ;
+		:name "朱元璋" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:徐達 rdfs:label :Character.
+:徐達 a :Novel_character ;
+		:name "徐達" ;
+		:team :明教;
+		:appears_in :倚天屠龍記.
+:胡青牛 rdfs:label :Character.
+:胡青牛 a :Novel_character ;
+		:name "胡青牛" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover :王難姑.
+:王難姑 rdfs:label :Character.
+:王難姑 a :Novel_character ;
+		:name "王難姑" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover :胡青牛.
+:楊不悔 rdfs:label :Character.
+:楊不悔 a :Novel_character ;
+		:name "楊不悔" ;
+		:team :明教;
+		:appears_in :倚天屠龍記;
+		:lover  :殷梨亭;
+		:teacher :小龍女;
+		:family :楊逍;
+		:family :紀曉芙.
+:張三豐 rdfs:label :Character.
+:張三豐 a :Novel_character ;
+		:name "張三豐" ;
+		:team :武當派;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:lover  :郭襄;
+		:teacher :覺遠;.
+:宋遠橋 rdfs:label :Character.
+:宋遠橋 a :Novel_character ;
+		:name "宋遠橋" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐;
+		:family :宋青書.
+:俞蓮舟 rdfs:label :Character.
+:俞蓮舟 a :Novel_character ;
+		:name "俞蓮舟" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐.
+:俞岱巖 rdfs:label :Character.
+:俞岱巖 a :Novel_character ;
+		:name "俞岱巖" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐.
+:張松溪 rdfs:label :Character.
+:張松溪 a :Novel_character ;
+		:name "張松溪" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐.
+:張翠山 rdfs:label :Character.
+:張翠山 a :Novel_character ;
+		:name "張翠山" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐;
+		:family :張無忌;
+		:lover :殷素素;
+		:friend :謝遜.
+:殷梨亭 rdfs:label :Character.
+:殷梨亭 a :Novel_character ;
+		:name "殷梨亭" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐;
+		:lover  :紀曉芙;
+		:lover  :楊不悔;
+		:teacher :小龍女.
+:莫聲穀 rdfs:label :Character.
+:莫聲穀 a :Novel_character ;
+		:name "莫聲穀" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :張三豐.
+:宋青書 rdfs:label :Character.
+:宋青書 a :Novel_character ;
+		:name "宋青書" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記;
+		:teacher :宋遠橋;
+		:lover  :周芷若;
+		:family :宋遠橋.
+:清風 rdfs:label :Character.
+:清風 a :Novel_character ;
+		:name "清風" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記.
+:明月 rdfs:label :Character.
+:明月 a :Novel_character ;
+		:name "明月" ;
+		:team :武當派;
+		:appears_in :倚天屠龍記.
+:滅絕師太 rdfs:label :Character.
+:滅絕師太 a :Novel_character ;
+		:name "滅絕師太" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:lover  :孤鴻子.
+:孤鴻子 rdfs:label :Character.
+:孤鴻子 a :Novel_character ;
+		:name "孤鴻子" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記.
+:丁敏君 rdfs:label :Character.
+:丁敏君 a :Novel_character ;
+		:name "丁敏君" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:teacher :滅絕師太.
+:紀曉芙 rdfs:label :Character.
+:紀曉芙 a :Novel_character ;
+		:name "紀曉芙" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:teacher :滅絕師太;
+		:lover  :楊逍;
+		:lover  :殷梨亭;
+		:family :楊不悔.
+:貝錦儀 rdfs:label :Character.
+:貝錦儀 a :Novel_character ;
+		:name "貝錦儀" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:teacher :滅絕師太.
+:靜虛師太 rdfs:label :Character.
+:靜虛師太 a :Novel_character ;
+		:name "靜虛師太" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:teacher :滅絕師太.
+:靜玄師太 rdfs:label :Character.
+:靜玄師太 a :Novel_character ;
+		:name "靜玄師太" ;
+		:team :峨嵋派;
+		:appears_in :倚天屠龍記;
+		:teacher :滅絕師太.
+:蘇夢清 rdfs:label :Character.
+:蘇夢清 a :Novel_character ;
+		:name "蘇夢清" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :倚天屠龍記;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :楊康;
+		:family :穆念慈.
+:覺遠 rdfs:label :Character.
+:覺遠 a :Novel_character ;
+		:name "覺遠" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記.
+:空見 rdfs:label :Character.
+:空見 a :Novel_character ;
+		:name "空見" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:空聞 rdfs:label :Character.
+:空聞 a :Novel_character ;
+		:name "空聞" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:空智 rdfs:label :Character.
+:空智 a :Novel_character ;
+		:name "空智" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:空性 rdfs:label :Character.
+:空性 a :Novel_character ;
+		:name "空性" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:成昆 rdfs:label :Character.
+:成昆 a :Novel_character ;
+		:name "成昆" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠;
+		:lover :陽夫人.
+:渡厄 rdfs:label :Character.
+:渡厄 a :Novel_character ;
+		:name "渡厄" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:渡劫 rdfs:label :Character.
+:渡劫 a :Novel_character ;
+		:name "渡劫" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:渡難 rdfs:label :Character.
+:渡難 a :Novel_character ;
+		:name "渡難" ;
+		:team :少林派;
+		:appears_in :倚天屠龍記;
+		:teacher :覺遠.
+:關能 rdfs:label :Character.
+:關能 a :Novel_character ;
+		:name "關能" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:宗維俠 rdfs:label :Character.
+:宗維俠 a :Novel_character ;
+		:name "宗維俠" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:唐文亮 rdfs:label :Character.
+:唐文亮 a :Novel_character ;
+		:name "唐文亮" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:常敏之 rdfs:label :Character.
+:常敏之 a :Novel_character ;
+		:name "常敏之" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:簡捷 rdfs:label :Character.
+:簡捷 a :Novel_character ;
+		:name "簡捷" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:胡豹 rdfs:label :Character.
+:胡豹 a :Novel_character ;
+		:name "胡豹" ;
+		:team :崆峒派;
+		:appears_in :倚天屠龍記.
+:鮮于通 rdfs:label :Character.
+:鮮于通 a :Novel_character ;
+		:name "鮮于通" ;
+		:team :華山派;
+		:appears_in :倚天屠龍記.
+:高老者 rdfs:label :Character.
+:高老者 a :Novel_character ;
+		:name "高老者" ;
+		:team :華山派;
+		:appears_in :倚天屠龍記.
+:矮老者 rdfs:label :Character.
+:矮老者 a :Novel_character ;
+		:name "矮老者" ;
+		:team :華山派;
+		:appears_in :倚天屠龍記.
+:薛公遠 rdfs:label :Character.
+:薛公遠 a :Novel_character ;
+		:name "薛公遠" ;
+		:team :華山派;
+		:appears_in :倚天屠龍記.
+:白垣 rdfs:label :Character.
+:白垣 a :Novel_character ;
+		:name "白垣" ;
+		:team :華山派;
+		:appears_in :倚天屠龍記.
+:何足道 rdfs:label :Character.
+:何足道 a :Novel_character ;
+		:name "何足道" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:何太沖 rdfs:label :Character.
+:何太沖 a :Novel_character ;
+		:name "何太沖" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記;
+		:lover :班淑嫻.
+:班淑嫻 rdfs:label :Character.
+:班淑嫻 a :Novel_character ;
+		:name "班淑嫻" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記;
+		:lover :何太沖.
+:西華子 rdfs:label :Character.
+:西華子 a :Novel_character ;
+		:name "西華子" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:衛四娘 rdfs:label :Character.
+:衛四娘 a :Novel_character ;
+		:name "衛四娘" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:五姑 rdfs:label :Character.
+:五姑 a :Novel_character ;
+		:name "五姑" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:詹春 rdfs:label :Character.
+:詹春 a :Novel_character ;
+		:name "詹春" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:蘇習之 rdfs:label :Character.
+:蘇習之 a :Novel_character ;
+		:name "蘇習之" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:白鹿子 rdfs:label :Character.
+:白鹿子 a :Novel_character ;
+		:name "白鹿子" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:高則呈 rdfs:label :Character.
+:高則呈 a :Novel_character ;
+		:name "高則呈" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:蔣濤 rdfs:label :Character.
+:蔣濤 a :Novel_character ;
+		:name "蔣濤" ;
+		:team :崑崙派;
+		:appears_in :倚天屠龍記.
+:史火龍 rdfs:label :Character.
+:史火龍 a :Novel_character ;
+		:name "史火龍" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:史紅石 rdfs:label :Character.
+:史紅石 a :Novel_character ;
+		:name "史紅石" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:傳功長老 rdfs:label :Character.
+:傳功長老 a :Novel_character ;
+		:name "傳功長老" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:執法長老 rdfs:label :Character.
+:執法長老 a :Novel_character ;
+		:name "執法長老" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:掌棒龍頭 rdfs:label :Character.
+:掌棒龍頭 a :Novel_character ;
+		:name "掌棒龍頭" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:掌缽龍頭 rdfs:label :Character.
+:掌缽龍頭 a :Novel_character ;
+		:name "掌缽龍頭" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:陳有諒 rdfs:label :Character.
+:陳有諒 a :Novel_character ;
+		:name "陳有諒" ;
+		:team :丐幫;
+		:appears_in :倚天屠龍記.
+:韓千葉 rdfs:label :Character.
+:韓千葉 a :Novel_character ;
+		:name "韓千葉" ;
+		:team :靈蛇島;
+		:appears_in :倚天屠龍記;
+		:lover  :黛綺絲;
+		:family :小昭.
+:武烈 rdfs:label :Character.
+:武烈 a :Novel_character ;
+		:name "武烈" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記;
+		:family :武三通;
+		:family :武青嬰.
+:朱長齡 rdfs:label :Character.
+:朱長齡 a :Novel_character ;
+		:name "朱長齡" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記;
+		:family :朱子柳;
+		:family :朱九真.
+:衛壁 rdfs:label :Character.
+:衛壁 a :Novel_character ;
+		:name "衛壁" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記;
+		:lover  :朱九真;
+		:teacher :武烈.
+:朱九真 rdfs:label :Character.
+:朱九真 a :Novel_character ;
+		:name "朱九真" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記;
+		:family :朱長齡.
+:武青嬰 rdfs:label :Character.
+:武青嬰 a :Novel_character ;
+		:name "武青嬰" ;
+		:team :朱武連環莊;
+		:appears_in :倚天屠龍記;
+		:family :武烈.
+:阿二 rdfs:label :Character.
+:阿二 a :Novel_character ;
+		:name "阿二" ;
+		:team :蒙古;
+		:appears_in :倚天屠龍記.
+:阿三 rdfs:label :Character.
+:阿三 a :Novel_character ;
+		:name "阿三" ;
+		:team :蒙古;
+		:appears_in :倚天屠龍記.
+:察罕特穆兒 rdfs:label :Character.
+:察罕特穆兒 a :Novel_character ;
+		:name "察罕特穆兒" ;
+		:team :蒙古;
+		:appears_in :倚天屠龍記;
+		:family :王保保;
+		:family :趙敏.
+:鹿杖客 rdfs:label :Character.
+:鹿杖客 a :Novel_character ;
+		:name "鹿杖客" ;
+		:team :蒙古;
+		:appears_in :倚天屠龍記;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :楊康;
+		:family :穆念慈.
+:鶴筆翁 rdfs:label :Character.
+:鶴筆翁 a :Novel_character ;
+		:name "鶴筆翁" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :倚天屠龍記;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :楊康;
+		:family :穆念慈.
+:上官劍南 rdfs:label :Character.
+:上官劍南 a :Novel_character ;
+		:name "上官劍南" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :射鵰英雄傳;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :楊康;
+		:family :穆念慈.
+:王保保 rdfs:label :Character.
+:王保保 a :Novel_character ;
+		:name "王保保" ;
+		:team :古墓派;
+		:team :全真教;
+		:team :西狂;
+		:appears_in :倚天屠龍記;
+		:lover  :小龍女;
+		:teacher :小龍女;
+		:family :察罕特穆兒;
+		:family :趙敏.
+:李萍 rdfs:label :Character.
+:李萍 a :Novel_character ;
+		:name "李萍" ;
+		:team :北俠;
+		:appears_in :射鵰英雄傳;
+		:lover  :郭嘯天;
+		:family :郭靖.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#book	
+:射鵰英雄傳 rdfs:label :Book.	
+:射鵰英雄傳 a :Novel;
+    :name "射鵰英雄傳";
+    :release_date "1957-01-01"^^xsd:date ;
+	:episode 1 .
+:神鵰俠侶 rdfs:label :Book.
+:神鵰俠侶 a :Novel;
+    :name "神鵰俠侶";
+    :release_date "1959-05-20"^^xsd:date ;
+	:episode 2 .
+:倚天屠龍記 rdfs:label :Book.
+:倚天屠龍記 a :Novel;
+    :name "倚天屠龍記";
+    :release_date "1961-07-06"^^xsd:date ;
+	:episode 3 .
+#team
+:古墓派 rdfs:label :Team.
+:古墓派 a :Team;
+    :name "古墓派".
+:丐幫 rdfs:label :Team.
+:丐幫 a :Team;
+    :name "丐幫".
+:東邪 rdfs:label :Team.
+:東邪 a :Team;
+    :name "東邪".
+:西毒 rdfs:label :Team.
+:西毒 a :Team;
+    :name "西毒".
+:西狂 rdfs:label :Team.
+:西狂 a :Team;
+    :name "西狂".
+:南僧 rdfs:label :Team.
+:南僧 a :Team;
+    :name "南僧".
+:北丐 rdfs:label :Team.
+:北丐 a :Team;
+    :name "北丐".
+:北俠 rdfs:label :Team.
+:北俠 a :Team;
+    :name "北俠".
+:中神通 rdfs:label :Team.
+:中神通 a :Team;
+    :name "中神通".
+:中頑童 rdfs:label :Team.
+:中頑童 a :Team;
+    :name "中頑童".
+:江南七怪 rdfs:label :Team.
+:江南七怪 a :Team;
+    :name "江南七怪".
+:崆峒派 rdfs:label :Team.
+:崆峒派 a :Team;
+    :name "崆峒派".
+:朱武連環莊 rdfs:label :Team.
+:朱武連環莊 a :Team;
+    :name "朱武連環莊".
+:靈蛇島 rdfs:label :Team.
+:靈蛇島 a :Team;
+    :name "靈蛇島".
+:崑崙派 rdfs:label :Team.
+:崑崙派 a :Team;
+    :name "崑崙派".
+:華山派 rdfs:label :Team.
+:華山派 a :Team;
+    :name "華山派".
+:少林派 rdfs:label :Team.
+:少林派 a :Team;
+    :name "少林派".
+:峨嵋派 rdfs:label :Team.
+:峨嵋派 a :Team;
+    :name "峨嵋派".
+:武當派 rdfs:label :Team.
+:武當派 a :Team;
+    :name "武當派".
+:明教 rdfs:label :Team.
+:明教 a :Team;
+    :name "明教".
+:天鷹教 rdfs:label :Team.
+:天鷹教 a :Team;
+    :name "天鷹教".
+:波斯明教 rdfs:label :Team.
+:波斯明教 a :Team;
+    :name "波斯明教".
+:大勝關陸家莊 rdfs:label :Team.
+:大勝關陸家莊 a :Team;
+    :name "大勝關陸家莊".
+:全真教 rdfs:label :Team.
+:全真教 a :Team;
+    :name "全真教".
+:大遼 rdfs:label :Team.
+:大遼 a :Team;
+    :name "大遼".
+:蒙古 rdfs:label :Team.
+:蒙古 a :Team;
+    :name "蒙古".
+:絕情谷 rdfs:label :Team.
+:絕情谷 a :Team;
+    :name "絕情谷".
+:大金 rdfs:label :Team.
+:大金 a :Team;
+    :name "大金".
+:白駝山莊 rdfs:label :Team.
+:白駝山莊 a :Team;
+    :name "白駝山莊".
+:鐵掌幫 rdfs:label :Team.
+:鐵掌幫 a :Team;
+    :name "鐵掌幫".
+:歸雲莊 rdfs:label :Team.
+:歸雲莊 a :Team;
+    :name "歸雲莊".
+:大理 rdfs:label :Team.
+:大理 a :Team;
+    :name "大理".
+:宋 rdfs:label :Team.
+:宋 a :Team;
+    :name "宋".
+
+
