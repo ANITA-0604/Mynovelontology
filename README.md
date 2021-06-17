@@ -12,10 +12,14 @@
 
 ### 呈現方式(程式碼附於Ont資料夾中)
 **後端**
+
+
 利用Django作為後端，連接虛擬機中的blazegraph api，因此可透過python對endpoint 下sparql指令。並提供RESTful API以供前端連接。
 
 
 **前端**
+
+
 利用React實現前端頁面的渲染，利用選單讓用戶查詢人物關係，在將用戶選擇的資料post到後端以做查詢。
 
 
